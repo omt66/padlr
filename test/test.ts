@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Padlr } from "./../src/index";
+import { Padlr } from "../src/index";
 
 describe("Padlr tests", () => {
     const str = "Hello World";
