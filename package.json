@@ -1,0 +1,31 @@
+{
+  "name": "padlr",
+  "version": "1.0.1",
+  "description": "Left and right padder.",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "mocha -r ts-node/register test/**/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omt66/padlr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omt66/padlr/issues"
+  },
+  "homepage": "https://github.com/omt66/padlr#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}

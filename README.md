@@ -1,2 +1,2 @@
 # padlr
-Left &amp; Right padder.
+Left and right padder.
