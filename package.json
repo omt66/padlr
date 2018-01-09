@@ -1,6 +1,6 @@
 {
   "name": "padlr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Left and right padder.",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",

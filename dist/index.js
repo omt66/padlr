@@ -14,7 +14,7 @@ var Padlr = /** @class */ (function () {
         return newStr;
     };
     Padlr.right = function (str, n, padStr) {
-        if (padStr === void 0) { padStr = ""; }
+        if (padStr === void 0) { padStr = " "; }
         var times = n - str.length;
         var newStr = str;
         while (times-- > 0) {
