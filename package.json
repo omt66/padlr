@@ -1,6 +1,6 @@
 {
   "name": "padlr",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Left and right padder.",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,11 +16,14 @@
   "keywords": [
     "pad",
     "padding",
+    "string",
+    "manipulation",
     "string pad",
     "leftpad",
-    "rightpad"
+    "rightpad",
+    "padding strings"
   ],
-  "author": "",
+  "author": "omt66",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/omt66/padlr/issues"
