@@ -1,6 +1,6 @@
 {
   "name": "padlr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Left and right padder.",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/omt66/padlr.git"
   },
-  "keywords": [],
+  "keywords": [
+    "pad",
+    "padding",
+    "string pad",
+    "leftpad",
+    "rightpad",
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
