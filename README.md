@@ -1,5 +1,8 @@
 # padlr
-Left and right padder.
+Left and right padder, i.e. left pad and right pad.
+
+## Install
+$ npm install padlr
 
 ## Usage Example
 
@@ -21,7 +24,7 @@ console.log(`str4: ${str4}.`);
 
 Sample Output:
 ```
-> ts-node index.ts
+$ ts-node index.ts
 str1:        Hi there.
 str2: -------Hi there.
 str3: Hi there+++++++.
