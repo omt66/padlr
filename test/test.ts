@@ -44,6 +44,10 @@ describe("Padlr tests", () => {
         expected = "ABCDEFG+++";
         expect(actual).to.equal(expected);
 
+        actual = Padlr.right(str, 10);
+        expected = "ABCDEFG   ";
+        expect(actual).to.equal(expected);
+
         str = "123";
 
         actual = Padlr.left(str, 2, "+");

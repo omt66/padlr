@@ -12,7 +12,7 @@ export class Padlr {
         return newStr;
     }
 
-    static right(str: string, n: number, padStr="") {
+    static right(str: string, n: number, padStr=" ") {
         let times = n - str.length;
         let newStr = str;
 
